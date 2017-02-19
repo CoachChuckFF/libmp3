@@ -7,14 +7,12 @@ using namespace std;
 
 int main(){
  
-  MP3 mp3("owl.mp3");
+  MP3 mp3("path/to/song.mp3");
 
-    //cout << mp3.get_pic();
   cout << mp3.get_name();
   cout << mp3.get_artist();
   cout << mp3.get_len() << " length\n";
   cout << mp3.get_bitrate() << " bitrate\n";
   //cout << mp3.get_pic();
-  //cout << mp3.get_len();
-  mp3.save_pic("save.jpg");
+  mp3.save_pic("where/you/want/to/save.jpg");
 }
