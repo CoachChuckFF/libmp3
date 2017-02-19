@@ -8,6 +8,7 @@ make
 change the parameters in the build.sh to include your own paths
 
 sudo chmod x+ build.sh
+
 ./build.sh
 
 also look in mp3example.cpp to see uses of the library
