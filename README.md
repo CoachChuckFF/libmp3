@@ -14,16 +14,21 @@ also look in mp3example.cpp to see uses of the library
 
 # Functions
 
-Constructors
+#### Constructors
+
 MP3();
+
 MP3(std::string filepath);
 
 ------------------------------------------------------------------
 
-Destructor
+#### Destructor
+
 ~MP3();
 
 -------------------------------------------------------------------
+
+#### IMPORTANT
 
 If you did not specify the filepath in the constructor, you need to call:
 
@@ -33,7 +38,7 @@ before you can call any of the following functions
 
 --------------------------------------------------------------------
 
-Getters
+#### Getters
 
 double get_len(void);
 
@@ -47,6 +52,6 @@ std::string get_pic(void);
 
 ---------------------------------------------------------------------
 
-Save embedded picture
+#### Save embedded picture
 
 int save_pic(std::string filename); //filename for the embedded jpg
