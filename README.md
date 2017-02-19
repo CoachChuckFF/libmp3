@@ -3,7 +3,7 @@ To build:
 
 make
 
-- or -
+--or--
 
 change the parameters in the build.sh to include your own paths
 
@@ -34,5 +34,5 @@ std::string get_name(void);
 std::string get_artist(void);
 std::string get_pic(void);
 
-Save picture
+Save embedded picture
 int save_pic(std::string filename); //filename for the embedded jpg
